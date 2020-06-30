@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   const constraints = {
     video: true,
-    audio: false,
+    audio: true,
   };
   const pc_config = null;
   let localVideoRef = useRef();
